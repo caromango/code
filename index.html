@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js"></script>
+    <title>Portafolio web lol</title>
+  </head>
+  <body>
+    <header class="nav-down">
+      <div class="header__logo"><a href="#hero">Mango</a></div>
+      <article>
+        <ul class="header__lista">
+          <li><a href="#ilustraciones">Ilustraciones</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contactame">Contactame</a></li>
+        </ul>
+      </article>
+    </header>
+    <main>
+      <hero class="hero-wrap" id="hero">
+        <div class="right-hero">
+          <section class="hero__intro">
+            <div class="intro__welcome">
+              <div class="typewriter">
+                <h1 class="typewriter-text">Hola!!</h1>
+              </div>
+
+              <h2>Soy Caro.</h2>
+            </div>
+            <p>
+              Soy estudiante de cuarto semestre de Diseño Gráfico en la
+              Universidad Autónoma del Caribe. Soy ilustradora, aunque también
+              me desenvuelvo en otras áreas del diseño.
+            </p>
+          </section>
+          <section class="hero__detalles">
+            <div class="detalles__idiomas">
+              <h3>Idiomas</h3>
+              <ul>
+                <li>Español</li>
+                <li>Inglés</li>
+              </ul>
+            </div>
+            <div class="detalles__intereses">
+              <h3>Intereses</h3>
+              <ul>
+                <li>Contenido audiovisual</li>
+                <li>Dibujar</li>
+                <li>Escribir</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="side-hero">
+          <div class="sh__img">
+            <div class="sh__image">
+              <img class="top-img" src="public/Chibi_saltando.png" alt="" />
+              <img class="down-img" src="public/Chibi_normal.png" alt="" />
+            </div>
+          </div>
+          <div class="sh__softwares">
+            <h3>Softwares</h3>
+            <ul>
+              <li><img src="public/Ilustrator.png" alt="" /></li>
+              <li><img src="public/Procreate.png" alt="" /></li>
+              <li><img src="public/Photoshop.png" alt="" /></li>
+              <li><img src="public/Krita.png" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+      </hero>
+      <section class="circle-wrap">
+        <a href="#ilustraciones">
+          <div class="circle">
+            <span class="material-icons">arrow_downward</span>
+          </div>
+        </a>
+      </section>
+
+      <section class="ilustraciones" id="ilustraciones">
+        <h2 class="ilustraciones__subtitle">Ilustraciones</h2>
+        <div class="ilustraciones__downpart">
+          <div class="ilustraciones__img-wrap">
+            <img src="public/Pochita.png" alt="" />
+            <img src="public/Viñeta.png" alt="" id="viñeta" />
+          </div>
+
+          <div class="container">
+            <div class="slider-wrapper">
+              <button
+                id="prev-slide"
+                class="slide-button material-symbols-rounded"
+              >
+                chevron_left
+              </button>
+              <ul class="image-list">
+                <img
+                  class="image-item"
+                  src="public/ilustracion-1.jpeg"
+                  alt="img-1"
+                />
+                <img
+                  class="image-item"
+                  src="public/ilustracion-2.jpeg"
+                  alt="img-2"
+                />
+                <img
+                  class="image-item"
+                  src="public/ilustracion-3.jpeg"
+                  alt="img-3"
+                />
+                <img
+                  class="image-item"
+                  src="public/ilustracion-4.jpeg"
+                  alt="img-4"
+                />
+              </ul>
+              <button
+                id="next-slide"
+                class="slide-button material-symbols-rounded"
+              >
+                chevron_right
+              </button>
+            </div>
+            <div class="slider-scrollbar">
+              <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="circle-wrapv2">
+        <a href="#proyectos"
+          ><div class="circle">
+            <span class="material-icons">arrow_downward</span>
+          </div></a
+        >
+      </section>
+
+      <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__subtitle">Proyectos</h2>
+        <div class="proyectos__downpart">
+          <div class="proyectos__cards">
+            <div class="card">
+              <div
+                class="card__image"
+                style="background-image: url('public/Bebida.png')"
+              ></div>
+              <h4>Sakura: Agua refrescante</h4>
+              <p>
+                Se ideó y desarrolló el diseño de un producto bebible dirigido a
+                personas pertenecientes a la subcultura "Cosplayer".
+              </p>
+            </div>
+            <div class="card">
+              <div
+                class="card__image"
+                style="background-image: url('public/193shots_so.jpg')"
+              ></div>
+              <h4>BeFit</h4>
+              <p>
+                Aplicación para hacer ejercicio ideada a partir de una
+                problemática, dirigida hacia el público femenino.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="circle-wrapv2">
+        <div class="circle">
+          <span class="material-icons">arrow_downward</span>
+        </div>
+      </section>
+
+      <section class="contactame" id="contactame">
+        <h2 class="contactame__subtitle">Contactame</h2>
+        <div class="contactame__links">
+          <ul>
+            <div class="contact__toplink">
+              <li>
+                <img src="public/Instagram.png" alt="Instagram" />
+                <p>_carolinaonoro</p>
+              </li>
+              <li>
+                <img src="public/Discord.png" alt="Discord" />
+                <p>caro#666</p>
+              </li>
+            </div>
+            <div class="contact__downlink">
+              <li>
+              <img src="public/Celular.png" alt="Celular" />
+              <p>3004061097</p>
+            </li>
+            <li>
+              <img src="public/Correo.png" alt="Correo" />
+              <p>carolinaol794@gmail.com</p>
+            </li>
+            </div>
+            
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
